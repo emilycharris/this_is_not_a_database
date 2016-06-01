@@ -13,8 +13,8 @@ def login_prompt():
                     next_step()
                 else:
                     login_error()
-            else:
-                login_error()
+        else:
+            login_error()
 
 def user_input():
     username = input("Username: ")
